@@ -38,18 +38,17 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "Source Serif Pro", Helvetica, Arial, sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .page-content {
   font-weight: 400;
   font-size: 120%;
   line-height: 1.6;
-  color: black;
+  color: #31404b;
 }
 
 article,
