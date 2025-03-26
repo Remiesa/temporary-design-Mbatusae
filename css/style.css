@@ -656,6 +656,9 @@ pre code {
   .container-md {
     max-width: 720px;
   }
+  .page-content {
+    font-size: 100%;
+  }
 }
 
 @media (min-width: 992px) {
