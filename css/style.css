@@ -2515,7 +2515,6 @@ textarea.form-control.is-invalid {
 .btn:focus,
 .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(255, 204, 0, 0.25);
 }
 
 .btn.disabled,
@@ -2549,7 +2548,6 @@ fieldset:disabled a.btn {
   color: white;
   background-color: var(--teal);
   border-color: var(--teal);
-  box-shadow: 0 0 0 0.2rem rgba(38, 222, 6, 0.5);
 }
 
 .btn-primary.disabled,
@@ -2570,7 +2568,9 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(38, 222, 6, 0.5);
+  color: white;
+  background-color: var(--teal);
+  border-color: var(--teal);
 }
 
 .btn-secondary {
